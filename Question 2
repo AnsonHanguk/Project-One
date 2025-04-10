@@ -1,0 +1,16 @@
+public class AnsonProject1 {
+/**
+ * Program that when complied prints to console "hello world"
+ */
+/** PSEUDOCODE 
+ * Program start
+ * print to console "hello world"
+ * End program 
+ */
+
+
+    public static void main(String[] args) {
+      
+    	   System.out.println("hello world");
+       }
+    }
