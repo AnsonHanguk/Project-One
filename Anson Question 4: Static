@@ -1,0 +1,22 @@
+/*
+ * Psuedocode
+ * start program
+
+ * set up static variable h to print hello world
+ * Print variable h which will print hello world
+ * end program
+ */
+
+
+package main;
+
+public class hellowrld {
+	static String helloWorld = ("Hello World");
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println(helloWorld);
+	}
+
+}
+
+}
