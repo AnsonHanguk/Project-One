@@ -1,0 +1,35 @@
+/*
+ * . (6 pts)Create a java program that uses two static class variables(members) from
+a new class called Calculator . Assign variable a the value of 20 and variable
+b the value of 1.5. Multiply the two static variables using an instance of the
+Calculator object with an algorithm called calculate() and print the resulting value
+to console. Write your pseudo code, resulting value, and repository link here: 
+
+ * start program
+ * Define static double float h as 20
+ * Define static variable double float j as 1.5
+ * create an object named calculate
+ * use object to multiply h*j
+ * print calculation
+ * end program
+ */
+
+
+package AnsonProject1.java;
+
+
+
+public class hellowrld {
+	static double h = 20;
+	static double j = 1.5;
+	public static void main(String[] args) {
+		hellowrld myObject = new hellowrld();
+		myObject.calculate();
+	}
+	public void calculate () {
+		// TODO Auto-generated method stub
+	
+System.out.println(h*j);
+	}
+
+}
