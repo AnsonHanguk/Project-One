@@ -1,0 +1,31 @@
+/**
+ * Psuedocode
+ * Assignment: 
+ * Create a java program that prints Hello World! to the console using an
+instance variable named helloWorld from an object with a class name of
+MyString. You must use an accessor to call the variable and print it from your
+main() method. Write your pseudo code and repository link here: 
+ * 
+ * Program Start
+ * Set up instance variable 
+ * Use Instance variable to print hello world
+ * end program
+ */
+
+
+public class helloWorld {
+	 String helloWorld;
+	public static void main(String[] args) {
+		helloWorld myObject = new helloWorld();
+		myObject.MyString();
+	}
+	helloWorld (){
+		helloWorld = "Hello World";
+		// TODO Auto-generated method stub
+	}
+	
+	public void MyString() {
+		System.out.print(helloWorld);
+	}
+
+}
