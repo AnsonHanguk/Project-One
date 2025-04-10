@@ -1,0 +1,19 @@
+/*
+ * start program
+ * set up local variable h to print hello world
+ * Print variable h which will print hello world
+ * end program
+ */
+
+
+package main;
+
+public class hellowrld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String h = ("Hello World");
+System.out.println(h);
+	}
+
+}
